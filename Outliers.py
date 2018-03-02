@@ -3,7 +3,7 @@
 --------------------------------------
 detect outliers and replace them
 --------------------------------------
-Arthur: Michael Liu
+Author: ag300g
 Date: 2017-09-15
 LastUpdate: 2017-09-15
 inputs:
