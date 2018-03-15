@@ -1,3 +1,8 @@
+# %%
+# fill nans in historical seasonal vlt mean, std
+filename  = "../****.csv"
+df = pd.read_csv(filename, delimiter="\t", header=None)
+
 df['vlt_mean'].fillna(14, inplace=True)
 df['vlt_std'].fillna(10 ** -11, inplace=True)
 df['vlt_std'].replace(0, 10 ** -11, inplace=True)
